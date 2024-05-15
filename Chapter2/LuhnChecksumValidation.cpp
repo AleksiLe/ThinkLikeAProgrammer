@@ -40,7 +40,6 @@ int main()
         digit = cin.get();
         position++;
     }
-    cout << evenSum << " " << oddSum << "\n";
     if((position - 1) % 2 == 0)
     {
         if (evenSum % 10 == 0)
